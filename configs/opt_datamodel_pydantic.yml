@@ -1,0 +1,71 @@
+
+# OPTIMIZATION VARIABLES
+input_vars:
+  - feature_name: A                           # feature name
+    default_value: 100                        # feature default value (user defined)
+    id: in_0                                  # feature id (should be used in constraint definition)
+    optimize: true                            # whether to optimize the variables, otherwise defaul value is used
+    value_range:                              # range or list of value to be explored
+      lb: 27
+      ub: 122
+    value_list: [50, 75, 100]
+    value_type: Float                         # variable type, Float, OrdCat, Cat
+    transform:                                # transformation to be applied to the variable
+    transform_kwargs:                         # transformation parameters
+  
+  - feature_name: B
+    default_value: 60 
+    id: in_1
+    optimize: true 
+    value_range:
+      lb: 1
+      ub: 3
+    value_list: [60,120]
+    value_type: OrdCat
+    transform:
+    transform_kwargs:
+  
+  - feature_name: C
+    default_value: 240 
+    id: in_2
+    optimize: true 
+    value_range:
+      lb: 240
+      ub: 8000
+    value_list: [240, 3880, 8000]
+    value_type: OrdCat
+    transform:
+    transform_kwargs:
+  
+  - feature_name: D
+    default_value: 30
+    id: in_3
+    optimize: true
+    value_range:
+      lb: 30
+      ub: 110
+    value_list: [30,50,70,100]
+    value_type: OrdCat
+    transform:
+    transform_kwargs:
+
+    - feature_name: E
+    default_value: 30
+    id: in_3
+    optimize: true
+    value_range:
+      lb: 30
+      ub: 110
+    value_list: ['sample_a','sample_b','sample_c']
+    value_type: Cat
+    transform:
+    transform_kwargs:
+
+
+# OUTPUT VARIABLES
+output_vars:
+  - feature_name: Output1
+    id: id_01
+  - feature_name: Output2
+    id: id_02
+

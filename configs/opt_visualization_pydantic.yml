@@ -1,0 +1,36 @@
+
+# Visualization PARAMETERS
+
+dataframe: '../../../docs/data_processed/regressor_predictions.xlsx'
+
+input_vars:
+  - feature_name: A                                        
+    id: in_0                                 
+    value_list: [50, 75, 100]
+    value_type: OrdCat                       
+    feature_description: 
+
+  - feature_name: C
+    id: in_3
+    value_list: [240,3880,8000]
+    value_type: OrdCat
+    feature_description: 
+ 
+  - feature_name: D
+    id : in_4
+    value_list: [30,50,70,90,110]
+    value_type: OrdCat
+    feature_description:
+
+
+# OUTPUT VARIABLES
+output_vars:
+  - feature_name: Output1
+    id: id_01
+    value_type: Float
+    feature_description: 
+
+  - feature_name: Output2
+    id: id_02
+    value_type: Float
+    feature_description: 

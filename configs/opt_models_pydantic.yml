@@ -1,0 +1,62 @@
+
+# MODELTRAINING
+
+model_name: 
+  classifier: RandomForestClassifier
+  regressor: RandomForestRegressor
+
+model_params:
+  classifier: {}
+  regressor: {}
+
+param_grid: 
+  classifier: {
+    "n_estimators"  : [50,80,100],                     
+    "criterion"     : ['entropy'],  
+    "max_depth"          :[8,16,32]
+    }    
+  
+  regressor: {
+  "n_estimators"  : [50,80,100],                     
+  "criterion"     : ['squared_error','poisson', 'friedman_mse'],  
+  "max_depth"     :  [8,16,32] 
+  }
+
+# DATAMODEL 
+
+dataframe: 
+  classifier: '../../../docs/data_processed/processed_data.xlsx'
+  regressor: '../../../docs/data_processed/processed_data.xlsx'
+
+input_vars:
+  - feature_name: A
+    id : in_0
+    feature_type: OrdCat
+    feature_description:
+  
+  - feature_name: B
+    id : in_1
+    feature_type: OrdCat
+    feature_description:
+
+  - feature_name: C
+    id : in_2
+    feature_type: OrdCat
+    feature_description:
+
+  - feature_name: D
+    id : in_3
+    feature_type: OrdCat
+    feature_description:
+
+
+output_vars:
+  - feature_name: Output1
+    id : out_0
+    feature_type: Float
+    feature_description: 
+
+  - feature_name: Output2
+    id : out_1
+    feature_type: Float
+    feature_description: 
