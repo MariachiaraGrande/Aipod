@@ -1,5 +1,5 @@
 
-# AIDOX - Artificial Intelligence for Design of Experiment and Optimization 
+# AIPOD - Artificial Intelligence for Process Design and Optimization
 
 ![title](images/AIDOX.png)
 
