@@ -1,5 +1,5 @@
 
-# AIPOD - Artificial Intelligence for Process Design and Optimization
+# AIPOD (ex-Aidox) - Artificial Intelligence for Process Design and Optimization
 
 ![title](images/AIDOX.png)
 
