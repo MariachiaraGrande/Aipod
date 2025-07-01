@@ -1,0 +1,22 @@
+
+# DOE PARAMETERS AND CONSTRAINTS
+doe_params:
+  method:
+    name: 'fullfact'
+    kwargs: { }                               # related to the defined method (pyDOE2) e.g {'criterion': 'correlation' } or {'reduction': '2' }
+  categorical_approach: 'oversampling'        # random, oversampling, undersampling
+  mixture_design:
+    method:
+    - lhs
+    - poi-d-optimal
+    - poi-polytopeß
+    - meshgrid
+
+    polytope_order:
+    - vertex
+    - overall_centroid
+    - midpoint_centroid
+    - face_centroid
+    - vertex_midpoint
+  mixture_constraints:
+    - { formula: 'out = 0.5' , tol: 0.1 }
