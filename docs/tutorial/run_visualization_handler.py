@@ -1,6 +1,6 @@
 from sklearn.ensemble import RandomForestRegressor
-from aidox.optimization.handler_visualization import  Visualization
-from aidox.models.pydantic_models_visualization import FeatureTypeEnum, InputFeature, OutputFeature, DataModel
+from aipod.optimization.handler_visualization import  Visualization
+from aipod.models.pydantic_models_visualization import FeatureTypeEnum, InputFeature, OutputFeature, DataModel
 
 import pandas as pd
 

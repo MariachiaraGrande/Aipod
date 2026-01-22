@@ -1,6 +1,6 @@
 
-from aidox.optimization.handler_model import Classifier, Regressor
-from aidox.models.pydantic_models_training import FeatureTypeEnum, InputFeature, OutputFeature, DataModel, ModelTraining
+from aipod.optimization.handler_model import Classifier, Regressor
+from aipod.models.pydantic_models_training import FeatureTypeEnum, InputFeature, OutputFeature, DataModel, ModelTraining
 import pandas as pd
 import os
 
