@@ -1,7 +1,7 @@
 
 # AIPOD (ex-Aidox) - Artificial Intelligence for Process Design and Optimization
 
-![title](images/AIDOX.png)
+![title](images/aipod.png)
 
 The aim of this framework is assist users in selecting and adjusting operating parameters to reach a predefined optimal configuration in the context of constrained optimization problems. In fact, given the indipendent variables of the process with their associated degrees of freedom and definend the targets, this tool enables users to obtain:
 
@@ -53,7 +53,7 @@ Moreover, for an artificial intelligence system, a large amount of data implies 
 
 ## User Guide
 
-![title](images/AIDOX_pipeline.png)
+![title](images/aipod_pipeline.png)
 
 For theese reasons, the proposed solution is a <strong> pipeline </strong> that integrate several steps into a single flow in order to manage date in a more efficient and structured manner. The aim of the workflow is to elaborate a graphical representation of the process in order to assist the user in adjusting operative parameters to reach a predifined optimum reducing both experimental time and material consumption.
 
