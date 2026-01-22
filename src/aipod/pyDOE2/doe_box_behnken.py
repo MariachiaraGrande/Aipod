@@ -14,8 +14,8 @@ Abraham Lee.
 """
 
 import numpy as np
-from aidox.pyDOE2.doe_factorial import ff2n
-from aidox.pyDOE2.doe_repeat_center import repeat_center
+from aipod.pyDOE2.doe_factorial import ff2n
+from aipod.pyDOE2.doe_repeat_center import repeat_center
 
 __all__ = ['bbdesign']
 
