@@ -1,5 +1,5 @@
-from aidox.optimization.handler_data import DoELeapHandler
-from aidox.models.pydantic_models_data import DataModel, DOEModel, InputFeature,ValueRanges, FeatureTypeEnum, DoeParams, DoeMethod, DoeMethodEnum,CategoricalApproachEnum,OutputFeature
+from aipod.optimization.handler_data import DoELeapHandler
+from aipod.models.pydantic_models_data import DataModel, DOEModel, InputFeature,ValueRanges, FeatureTypeEnum, DoeParams, DoeMethod, DoeMethodEnum,CategoricalApproachEnum,OutputFeature
 import pandas as pd
 
 

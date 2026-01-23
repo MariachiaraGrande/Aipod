@@ -6,7 +6,7 @@ from ..models.pydantic_models_data import DataModel, DOEModel, InputFeature
 import numpy as np
 import sklearn.preprocessing as skpreprocessing
 import scipy.stats.distributions as sp_disrt
-from aidox import pyDOE2
+from aipod import pyDOE2
 
 
 class DoELeapHandler(LeapHandler):

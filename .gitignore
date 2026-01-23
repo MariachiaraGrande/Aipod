@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+
+# Virtual environment
+venv/
+.env
+
+# Data & models
+data/
+models/
+reports/
+
+# OS
+.DS_Store
+logs/
